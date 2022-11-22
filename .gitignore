@@ -1,6 +1,4 @@
-to_be_deleted
 # Ignore everything in this directory
 *
 # Except this file
 !.gitignore
-AutoditorKeyPair.pem
