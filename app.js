@@ -32234,5 +32234,5 @@ app.get('/export_chat_data_code', (req, res) => {
 // production url: https://audit-software.herokuapp.com/
 app.listen(process.env.PORT || backendPort,()=>
 {
-    console.log("APP IS RUNNING AT " + backendPort)
+    console.log("APP IS RUNNING AT " + process.env.PORT ? process.env.PORT : backendPort)
 })
