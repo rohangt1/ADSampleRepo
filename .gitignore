@@ -3,3 +3,4 @@ to_be_deleted
 *
 # Except this file
 !.gitignore
+AutoditorKeyPair.pem
